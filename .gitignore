@@ -1,0 +1,12 @@
+*.o
+*.a
+*~
+*.pyc
+bin/
+build/
+include/
+lib/
+local/
+man/
+share/
+dist/
