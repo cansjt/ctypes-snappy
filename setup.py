@@ -45,7 +45,7 @@ The usage is a straightfoward copy of the gzip package:
     author="Russell Power",
     author_email="power@cs.nyu.edu",
     license="BSD",
-    version="1.02",
-    url="http://rjpower.org/browse.cgi/ctypes-snappy",
+    version="1.03",
+    url="http://github.com/rjpower/ctypes-snappy",
     py_modules=['snappy'],
 )
