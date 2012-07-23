@@ -14,7 +14,7 @@ http://pypi.python.org/pypi/python-snappy
 
 The usage is a straightfoward copy of the gzip package:
 
-import snappy
-compressed = snappy.compress('abba' * 100)
-uncompressed = snappy.uncompress(compressed)
+    import snappy
+    compressed = snappy.compress('abba' * 100)
+    uncompressed = snappy.uncompress(compressed)
  
