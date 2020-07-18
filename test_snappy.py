@@ -6,10 +6,10 @@ import unittest
 class TestCase(unittest.TestCase):
   def testSimple(self):
     for i in range(1, 100):
-      str = 'abcdefg' * i
-      cstr = snappy.compress(str)
+      buf = b'abcdefg' * i
+      cstr = snappy.compress(buf)
       ustr = snappy.uncompress(cstr)
-      self.assertEqual(str, ustr)
+      self.assertEqual(buf, ustr)
 
 
 if __name__ == '__main__':
